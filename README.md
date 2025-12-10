@@ -26,7 +26,7 @@ This approach allows fast, offline summarization without AI API costs.
 🛠 Installation & Setup
 
 1️⃣ Clone the Repository
-git clone https://github.com/GuntiBharath/SummAI.git
+git clone https://github.com/GuntiBharath/SummAI---Business-Summarization
 cd SummAI
 
 2️⃣ Install Required Packages
