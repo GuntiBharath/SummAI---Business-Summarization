@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SummAI – Business Article Summarizer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <h1>SummAI – Business Article Summarizer</h1>
+
+        <form method="POST">
+            <label>Enter or Paste Text</label>
+            <textarea name="custom_text" required
+             placeholder="Enter long business article here...">{{ input_text }}</textarea>
+
+            <button type="submit">Summarize</button>
+        </form>
+
+        <hr>
+
+        <h2>Summary:</h2>
+        <div class="summary-box">{{ summary }}</div>
+    </div>
+</body>
+</html>
